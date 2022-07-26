@@ -1,0 +1,10 @@
+What are the important categories of software?
+What is the main difference between a computer program and computer software?
+What is software re-engineering?
+Describe the software development process in brief:
+What are SDLC models available?
+What is verification and validation?
+In software development process what is the meaning of debugging?
+How can you make sure that your code is both safe and fast?
+Name two tools which are used for keeping track of software requirements?
+What is the main difference between a stubs, a mock?

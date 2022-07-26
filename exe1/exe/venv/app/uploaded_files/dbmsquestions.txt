@@ -1,0 +1,9 @@
+What is DBMS used for?
+What is meant by a Database?
+Why is the use of DBMS recommended?
+What is the purpose of normalization in DBMS?
+What are the different types of languages that are available in the DBMS?
+What is the purpose of SQL?
+Explain the concepts of a Primary key and Foreign Key?
+What are the main differences between Primary key and Unique Key?
+What is the concept of sub-query in terms of SQL?

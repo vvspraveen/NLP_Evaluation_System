@@ -1,0 +1,10 @@
+What are the advantages of using cloud computing?
+Explain different models for deployment in cloud computing?
+What is the difference in cloud computing and computing for mobiles?
+How user can gain from utility computing?
+For a transport in cloud how you can secure your data?
+What are the security aspects provided with cloud?
+List out different layers which define cloud architecture?
+What are system integrators in Cloud Computing?
+Explain what is the use of “EUCALYPTUS” in cloud computing?
+What is the requirement of virtualization platform in implementing cloud?

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+     <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+  </head>
+  <body>
+    <form method="POST" action="/remove">
+
+<div class="login-box">
+  <h1>Remove Student</h1>
+
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="RollNumber" name="roll">
+  </div><br><br>
+   {{message}}
+    <input type="submit" class="btn" value="submit"><br>
+</div>
+    </form>
+  </body>
+</html>

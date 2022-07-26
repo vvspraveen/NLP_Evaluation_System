@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+     <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+  </head>
+  <body>
+    <form method="POST" action="/manage">
+
+<div class="login-box">
+  <h1>Manage Student DB</h1>
+
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="RollNumber" name="roll">
+  </div><br><br>
+   {{"name     :"}}{{name}}<br>
+   {{"email    :"}}{{email}}<br>
+   {{"password :"}}{{password}}<br>
+   {{"branch   :"}}{{branch}}<br><br>
+   {{message}}
+    <input type="submit" class="btn" value="submit"><br><br>
+    <a href="http://127.0.0.1:8000/remove" style="color: Ivory;font-size:18px;">remove student</a>
+</div>
+    </form>
+  </body>
+</html>

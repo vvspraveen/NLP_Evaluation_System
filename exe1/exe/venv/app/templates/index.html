@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+     <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+  </head>
+  <body>
+    <form method="POST" action="/log">
+
+<div class="login-box">
+  <h1>Login</h1>
+  <div class="textbox">
+    <i class="fas fa-user"></i>
+    <input type="text" placeholder="rollnumber" name="roll">
+  </div>
+  <div class="textbox">
+   <i class="fa fa-suitcase" aria-hidden="true"></i>
+    <input type="text" placeholder="subject" name="sub">
+  </div>
+  <div class="textbox">
+    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+    <input type="text" placeholder="branch" name="br">
+  </div>
+
+  <div class="textbox">
+    <i class="fas fa-lock"></i>
+    <input type="password" placeholder="Password" name="pass">
+  </div>
+
+    <input type="submit" class="btn" value="Sign in">
+    <a class="link" href="http://127.0.0.1:8000/send" tabindex="-1" aria-disabled="false">signup</a><br>
+    {{message}}
+</div>
+    </form>
+  </body>
+</html>

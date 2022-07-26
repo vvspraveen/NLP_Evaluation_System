@@ -1,0 +1,10 @@
+Write short notes on signals and Antennas?
+Define Handover?
+What is SDMA ? How it is achieved?
+What is a cyclic representation of data?
+explain user mobility and device mobility?
+explain about Signal propagation?
+Explain about cellular systems?
+Explain difference between bearer services, tele services and supplementary services?
+Give an introduction to the applications of Mobile computing.?
+Explain about DECT.?

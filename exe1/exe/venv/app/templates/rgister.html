@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style1.css')}}">
+  </head>
+  <body>
+    <form  method="POST" action="/send">
+  <div class="reg-box">
+    <h1>Student Registration</h1>
+  
+        <div class="textbox">
+         <i class="fas fa-user"></i>
+         <input type="text" name="nm" placeholder="full name"><br>
+        </div>
+
+        <div class="textbox">
+         <i class="fa fa-users" aria-hidden="true"></i>
+         <input type="text" name="rl" placeholder="rollnumber"><br>
+        </div>
+
+        <div class="textbox">
+         <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+         <input type="text" name="br" placeholder="branch"><br>
+        </div>
+
+
+
+        <div class="textbox">
+         <i class="fa fa-envelope" aria-hidden="true" name="email"></i>
+         <input type="text" name="email" placeholder="email"><br>
+        </div>
+
+        <div class="textbox">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <input type="text" name="phone" placeholder="phonenumber"><br>
+        </div>
+        <div class="textbox">
+          <i class="fa fa-user-secret" aria-hidden="true"></i>
+          <input type="password" placeholder="password"  name="pass1"><br>
+        </div>
+
+        <div class="textbox">
+          <i class="fa fa-user-secret" aria-hidden="true"></i>
+          <input type="password" name="pass2" placeholder="re-type password"><br>
+        </div><br>
+    <input type="submit" class="btn" value="register">
+    <br><br>
+        {{message}}
+
+  </div>
+</form>
+  </body>
+</html>

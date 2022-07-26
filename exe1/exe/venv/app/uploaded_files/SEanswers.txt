@@ -1,0 +1,11 @@
+System software,Application software,Embedded software,Web Applications,Artificial Intelligence software,Scientific software.!!
+A computer program is a piece of programming code. It performs a well-defined task.  On the other hand, the software includes programming code, documentation and user guide.!!
+It is a process of software development which is done to improve the maintainability of a software system.!!
+The software development is a life cycle is composed of the following stages: Requirement analysis,Specification,Software architecture,Implementation,Testing,Documentation,Training and support,Maintenance!!
+Waterfall Model, Spiral Model, Big-bag model, Iterative Model, and V- Model are some of the famous SDLC models.!!
+Verification:Verification is a term that refers to the set of activities which ensure that software implements a specific function.Validation: It refers to the set of activities which ensure that software that has been built according to the need of clients.!!
+Debugging is the process that results in the removal of error. It is very important part of the successful testing.!!
+In the software, development security is always first. So if the execution of the program is slow then, I will try to identify the reason out ways to its time complexity.!!
+There many l ways to keep track of requirements. Two commonly used are:Make a requirements specifications document to list all of the requirements.Create an excel sheet the list down the requirement, type, dependency, priority, etc.!!
+A stub is a minimal implementation of an interface which generally returns hardcoded data while mock usually verifies outputs against expectations. Those expectations are set in the test.!!
+

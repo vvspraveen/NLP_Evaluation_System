@@ -1,0 +1,20 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none; 
+}
+div.but.input{
+	background-color: #0000;
+}
